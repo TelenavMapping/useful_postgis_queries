@@ -6,7 +6,7 @@ First we need the data! Let's see how we import data into a PostgreSQL database.
 
 ## Importing OSM data using Osmosis (Windows version)
 
-- Requirements: Windows, [Postgresql](https://www.postgresql.org/download/), [PostGIS](http://postgis.net/install/), [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis/Installation)
+- Requirements: [Postgresql](https://www.postgresql.org/download/), [PostGIS](http://postgis.net/install/), [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis/Installation), [PgAdmin](https://www.pgadmin.org/download/windows4.php)
 
 ### Step 1
 
@@ -30,3 +30,7 @@ The script asks for your PostgreSQL user account, password and database name. Th
 
 Then, you will be asked to enter the **name of the osm.pbf file without the extension**. Make sure you have it in the same folder where the script is.
 ![import2](https://cloud.githubusercontent.com/assets/24428741/24399486/99238bb0-13b5-11e7-839a-1527dca91864.JPG)
+##
+After import, check your newly imported database in PgAdmin. You should have the following table structure:
+![query7](https://cloud.githubusercontent.com/assets/24428741/24405272/ea8d3f8e-13cc-11e7-9dfe-74d50ff0ce71.JPG)
+
