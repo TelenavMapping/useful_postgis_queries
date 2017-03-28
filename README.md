@@ -10,7 +10,7 @@ First we need the data! Let's see how we import data into a PostgreSQL database.
 
 ### Step 1
 
-Using command prompt (cmd), download into a folder the scope.bat, pgsnapshot_schema_0.6.sql and pgsnapshot_schema_0.6_linestring.sql files.
+Using command prompt (cmd), download into a folder the **_scope.bat_**, **_pgsnapshot_schema_0.6.sql_** and **_pgsnapshot_schema_0.6_linestring.sql_** files.
 
 ### Step 2
 
@@ -28,5 +28,5 @@ The script asks for your PostgreSQL user account, password and database name. Th
 ![import1](https://cloud.githubusercontent.com/assets/24428741/24399479/90399a3a-13b5-11e7-91db-9ce8358a79cc.JPG)
 (don't worry about the notice from psql -> missing tables are not an error; the notice appears because osm2pgsql tries to drop old tables first, but because you are doing the import for the first time there is nothing to drop)
 
-Then, you will be asked to enter the name of the osm.pbf file without the extension. Make sure you have it in the same folder where the script is.
+Then, you will be asked to enter the **name of the osm.pbf file without the extension**. Make sure you have it in the same folder where the script is.
 ![import2](https://cloud.githubusercontent.com/assets/24428741/24399486/99238bb0-13b5-11e7-839a-1527dca91864.JPG)
