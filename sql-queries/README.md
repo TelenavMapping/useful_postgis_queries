@@ -17,7 +17,7 @@
 * **No ref junctions** - motorway junctions without ref (number of the exit)
 ![query4](https://cloud.githubusercontent.com/assets/24428741/24403183/666fcfd0-13c4-11e7-983d-0fa838f428f2.JPG)
 
-* **Conditional restrictions with old taging schema** - these are the ones using deprecated tags like "day_on", "day_off", "hour_on", "hour_off", etc.
+* **Conditional restrictions with old taging schema** - these are the ones using deprecated tags like "day_on", "day_off", "hour_on", "hour_off", etc. We use Mapbox's schema instead: [Adding conditional turn restrictions](https://www.mapbox.com/mapping/mapping-for-navigation/adding-turn-restrictions/)
 ![query5](https://cloud.githubusercontent.com/assets/24428741/24403324/0986f658-13c5-11e7-9de5-10053902db7e.JPG)
 
 * **Possible roundabouts** - this script detects circular geometries in OSM that are most probable roundabouts. Here's what the script detected in North America: https://gavrismanuela1993.carto.com/viz/7ed4f56c-7371-11e6-8983-0e05a8b3e3d7/embed_map
