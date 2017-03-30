@@ -7,7 +7,7 @@ where tags->'highway' like '%_link'
 and tags ?'name');
 
 
-- create tabke with links (ramps) that have ref
+-- create tabke with links (ramps) that have ref
 
 create table ramp_has_ref as (
 select *
