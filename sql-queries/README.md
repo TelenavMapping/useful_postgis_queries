@@ -2,9 +2,6 @@
 * **Untagged roads** - this script detects possible roads that don't have any tags to describe them, they are usually added in OSM by new users with little experience
 ![3](https://cloud.githubusercontent.com/assets/16319427/17206298/b571eb30-54b7-11e6-9801-487dab985fe1.PNG)
 
-* **Miscategorized links** - in OSM, we use the higher classification rule, so when a primary road intersects a secodary road, the links is a primary_link; this script detects cases where the link is miscategorized
-![link](https://cloud.githubusercontent.com/assets/24428741/24402307/970ba096-13c0-11e7-94d6-3b5b2c71adff.png)
-
 * **Similar name/alt_name** - this script detects streets that have name and alt_name tags really similar, for example name=Johns Road, alt_name=John's Road
 ![query1](https://cloud.githubusercontent.com/assets/24428741/24402562/cd3727b6-13c1-11e7-9af0-88caa6667ef3.JPG)
 
